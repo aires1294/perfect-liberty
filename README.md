@@ -47,14 +47,19 @@ cd perfect-liberty
 
 ### 2. Rodar o backend (API)
 
+```bash
 cd perfect-liberty-api
 npm install
 cp .env.example .env
 # edite o .env com sua string de conexão do MongoDB
 npm run dev
+```
 
-### 2. Rodar o frontend (interface)
+### 3. Rodar o frontend (interface)
+
+```bash
 cd perfect-liberty-form
 npm install
 npm run dev
+```
 
